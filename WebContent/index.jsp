@@ -12,7 +12,7 @@
 	</head>
 	<body>
 		<form name="form1" action="FormularioWebCursoUdemy/ClaseServlet1" method="post"
-			onsubmit="return validarforma(this)">
+			onsubmit="return validarForma(this)">
 			
 			<input type="hidden" name="oculto" value="valor oculto"/>
 			
@@ -46,7 +46,7 @@
 						Tecnologias de internet: (*)
 					</td>
 					<td>
-						Java <input type="checkbox" name="Tecnologia" value="java">
+						Java <input type="checkbox" name="Tecnologia" value="Java">
 						&nbsp;&nbsp;&nbsp;
 						Net <input type="checkbox" name="Tecnologia" value="Net">
 						&nbsp;&nbsp;&nbsp;
@@ -70,7 +70,7 @@
 						Ocupacion: (*)
 					</td>
 					<td>
-						<select name="ocupacion" class="default">
+						<select name="ocupacion" a>
 							<option value="">Seleccionar</option>
 							<option value="1">Profesor</option>
 							<option value="2">Ingeniero</option>
